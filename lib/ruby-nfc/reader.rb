@@ -63,6 +63,7 @@ module NFC
 						end
 					end
 				end # upto
+        sleep 0.1 # allow other threads to execute if present
 			end # loop
     end
 
